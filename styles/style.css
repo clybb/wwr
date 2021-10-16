@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi&display=swap|Lato');
+
+
+
 #hero img {
     display: block;
     max-width: 1600px;
     margin: 0 auto;
+    width: 100%;
 }
 nav a{
     text-align: center;
     background-color: #0A2463;
     color: #6ef9f5;
     text-decoration: none;
+    padding: 35px;
+    
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -24,6 +31,9 @@ main section {
 }
 body {
     background-color: whitesmoke;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #0A2463;
@@ -36,6 +46,12 @@ nav a:hover {
     background-color: #0A2463;
     color: #6ef9f5;
     text-decoration: none;
+    font-family: Lato;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
 }
 .book:hover, .join:hover {
     background-color: #6C91C2;
@@ -43,12 +59,20 @@ nav a:hover {
 }
 .msg {
     background-color: #0A2463;
+    font-family: Lato;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #6C91C2;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: black;
+    font-family: Yaldevi;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: black;
@@ -58,12 +82,15 @@ h4 {
 }
 .msg p {
     color: #6ef9f5;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: #6ef9f5;
 }
 footer a {
     color: #6ef9f5;
+    font-family: Lato;
 }
 footer a:hover {
     color: #0A2463;
@@ -74,4 +101,29 @@ footer a:hover {
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+h2 {
+    font-family: Lato;
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.icon {
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #0A2463;
+}
+main section img {
+    box-sizing: border-box;
+}
+.logo {
+    margin-bottom: 35px;
 }
