@@ -1,0 +1,25 @@
+body {
+    font-size: 30px;
+}
+img {
+    width: 75%;
+    border: 5px solid green;
+    
+}
+h1, p {
+    border: 5px solid blue;
+    text-align: center;
+    
+}
+#image-box {
+    text-align: center;
+}
+p {
+    font-size: 3rem;
+}
+.parabox {
+    font-size: 12px;
+}
+ h1:hover {
+   color: red; 
+}
